@@ -34,6 +34,10 @@ p {
   opacity: 70%;
 }
 
+img {
+  border-radius: 8px;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -71,10 +75,17 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-wdith: 900px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 60px;
   }
+  .subheading {
+    font-size: 35px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+
   .project-description {
     padding: 0;
     text-align: center;
