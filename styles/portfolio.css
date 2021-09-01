@@ -1,2 +1,29 @@
 /* font-family: 'Poppins', sans-serif;
-font-family: 'Questrial', sans-serif;
+font-family: 'Questrial', sans-serif; */
+
+.hero {
+  background: #dbd8e3;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+h1 {
+  color: #352f44;
+  font-family: "Questrial", sans-serif;
+  font-size: 96px;
+}
+
+.hero h2 {
+  color: #2a2438;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  line-height: 2;
+}
+
+.btn-branding {
+  background: #5c5470;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 2;
+}
