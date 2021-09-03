@@ -28,6 +28,10 @@ h1 {
   font-size: 96px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -68,6 +72,16 @@ nav li.active a {
 
 footer {
   margin: 60x 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {
