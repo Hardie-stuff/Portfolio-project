@@ -66,6 +66,37 @@ nav li.active a {
   color: var(--primary-color);
 }
 
+footer {
+  margin: 60x 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background: var(--branding-color);
+}
+
 .logo {
   max-width: 150px;
 }
