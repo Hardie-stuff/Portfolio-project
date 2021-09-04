@@ -36,6 +36,7 @@ p {
   font-size: 16px;
   line-height: 30px;
   opacity: 70%;
+  text-align: justify;
 }
 
 img {
@@ -186,6 +187,10 @@ footer .social-links a:hover {
 .gallery h1,
 h2 {
   text-align: center;
+}
+
+.writing p {
+  text-align: justify;
 }
 
 .contact h1 {
