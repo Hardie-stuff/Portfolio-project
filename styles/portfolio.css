@@ -115,18 +115,6 @@ footer .social-links a:hover {
   max-width: 150px;
 }
 
-.hero-image {
-  background-image: url("images/artist-picture.jpeg");
-  height: 50%;
-  background-position: center;
-}
-
-.hero-text {
-  text-align: left;
-  top: 50%;
-  color: var(--secondary-color);
-}
-
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -218,7 +206,8 @@ h2 {
   background: var(--secondary-color);
 }
 
-#submit-button {
+#submit-button,
+#view-button {
   display: block;
   margin: 0 auto;
 }
