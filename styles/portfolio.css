@@ -115,6 +115,18 @@ footer .social-links a:hover {
   max-width: 150px;
 }
 
+.hero-image {
+  background-image: url("images/artist-picture.jpeg");
+  height: 50%;
+  background-position: center;
+}
+
+.hero-text {
+  text-align: left;
+  top: 50%;
+  color: var(--secondary-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -153,7 +165,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 80px 20px;
+  padding: 40px 20px;
 }
 
 .content-container h1 {
@@ -209,6 +221,15 @@ h2 {
 #submit-button {
   display: block;
   margin: 0 auto;
+}
+
+.coder {
+  font-weight: 300;
+  color: var(--primary-color);
+}
+
+.coder a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {

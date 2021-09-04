@@ -31,30 +31,37 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo-small.jpeg"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Lara Hardie logo"
           />
         </a>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li class="active">
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Lara Hardie">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Lara Hardie's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Lara Hardie">Contact</a>
           </li>
         </ul>
       </nav>
     </div>
     <div class="content-container container">
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1>I am Lara Hardie</h1>
+          <h2>illustrator and story-teller, based in South Africa</h2>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
@@ -67,7 +74,9 @@
               doodling and writing, and have now managed to turn it into a
               part-time job and full-time passion.
             </p>
-            <a href="#" class="btn btn-branding">View my work</a>
+            <a href="/work.html" class="btn btn-branding" title="View gallery"
+              >View my work</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
@@ -80,7 +89,10 @@
       </div>
       <footer>
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:lara@stewart.org.za" class="email-link"
+          <a
+            href="mailto:lara@stewart.org.za"
+            class="email-link"
+            title="Email Lara"
             >lara@stewart.org.za</a
           >
         </div>
@@ -95,6 +107,14 @@
             <i class="fab fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-4 coder">
+          This project was coded by Lara Hardie, and it is
+          <a
+            href="https://github.com/Hardie-stuff/Portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>

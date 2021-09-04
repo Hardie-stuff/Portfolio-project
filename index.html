@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Lara Hardie is an artist and writer based in South Africa. Both her art and her writing have dark themes, often highlighting the personal aspects of depression and sexual autonomy. She has two novels  - one graphic - in development."
+    />
+    <title>Artist and Author - Lara Hardie</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,25 +36,25 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <img
             src="images/logo-small.jpeg"
             class="logo d-none d-md-block"
-            alt=""
+            alt="Lara Hardie logo"
           />
         </a>
         <ul>
           <li class="active">
-            <a href="/">Home</a>
+            <a href="/" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html">About</a>
+            <a href="/about.html" title="About Lara Hardie">About</a>
           </li>
           <li>
-            <a href="/work.html">Work</a>
+            <a href="/work.html" title="Lara Hardie's work">Work</a>
           </li>
           <li>
-            <a href="/contact.html">Contact</a>
+            <a href="/contact.html" title="Contact Lara Hardie">Contact</a>
           </li>
         </ul>
       </nav>
@@ -102,7 +106,7 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="images/Succubus.jpg" class="img-fluid" alt="commission" />
+          <img src="images/Succubus.jpg" class="img-fluid" alt="Succubus" />
         </div>
       </div>
       <div class="row mb-5">
@@ -145,11 +149,19 @@
             </p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Lara Hardie"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:lara@stewart.org.za" class="email-link"
+          <a
+            href="mailto:lara@stewart.org.za"
+            class="email-link"
+            title="Email Lara"
             >lara@stewart.org.za</a
           >
         </div>
@@ -164,6 +176,14 @@
             <i class="fab fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-4 coder">
+          This project was coded by Lara Hardie, and it is
+          <a
+            href="https://github.com/Hardie-stuff/Portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
