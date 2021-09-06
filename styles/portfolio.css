@@ -234,6 +234,11 @@ h2 {
   h1 {
     font-size: 60px;
   }
+
+  .gallery h1 {
+    font-size: 60px;
+  }
+
   .subheading {
     font-size: 35px;
   }
